@@ -1,0 +1,99 @@
+        .car-list {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .car-item {
+            border: 1px solid #ddd;
+            padding: 10px;
+            margin: 10px;
+            width: 300px;
+            background-color: #f9f9f9;
+        }
+
+        .car-item h3 {
+            color: #333;
+        }
+
+        .no-cars {
+            color: red;
+            font-weight: bold;
+        }
+
+        .home-button {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .home-card {
+            border: 1px solid #ddd;
+            padding: 10px;
+            width: 200px;
+            background-color: #f9f9f9;
+        }
+
+        .home-card a {
+            color: #333;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .student-list {
+            display: flex;
+            flex-wrap: wrap;
+
+            margin-top: 20px;
+        }
+
+        .student-item {
+            background-color: #F4F4F4;
+            /* 淡灰色 */
+            border: 1px solid #ddd;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px;
+            width: 200px;
+            text-align: center;
+        }
+
+        .no-students {
+            color: red;
+            font-weight: bold;
+        }
+
+        table {
+            width: 100%;
+            max-width: 800px;
+            /* 设置最大宽度 */
+            border-collapse: collapse;
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid #ddd;
+            text-align: center;
+        }
+
+        th,
+        td {
+            padding: 10px;
+            text-align: center;
+        }
+
+        .no-locations {
+            color: red;
+            font-weight: bold;
+        }
+
+        p.success {
+            color: black;
+            font-weight: bold;
+        }
+
+        p.error {
+            color: red;
+            font-weight: bold;
+        }
